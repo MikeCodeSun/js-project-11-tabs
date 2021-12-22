@@ -1,0 +1,77 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightcyan;
+}
+
+/* section  */
+
+section {
+  padding: 5rem 0;
+}
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.section-center {
+  width: 90vw;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  border-radius: 6px;
+}
+
+/* img */
+.img-container {
+  height: auto;
+  width: 350px;
+}
+.img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* btn */
+.btn {
+  display: inline-block;
+  color: black;
+  background-color: transparent;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  transition: 0.6s linear all;
+  cursor: pointer;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  border-color: black;
+}
+.btn:hover {
+  color: white;
+  background-color: black;
+}
+.about {
+  padding: 1rem;
+  text-align: center;
+}
+
+.about-content {
+  margin-top: 1rem;
+}
+
+.about .content {
+  display: none;
+}
+.active {
+  background-color: lightcyan;
+  border-color: lightcyan;
+}
